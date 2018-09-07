@@ -39,3 +39,8 @@ fields:
   type: text
   hidden: true
   default: post
+- type: blocks
+  template_types:
+  - lesson-step
+  label: Add steps...
+  name: content
