@@ -1,0 +1,21 @@
+---
+label: Lesson step
+hide_body: false
+is_partial: true
+fields:
+- type: number
+  label: Step number
+  name: step_number
+  default: '0'
+  config:
+    max: '1'
+    step: '1'
+    required: true
+- type: textarea
+  name: content
+  label: Content
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
