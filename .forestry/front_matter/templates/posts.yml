@@ -20,5 +20,6 @@ fields:
   label: Post image
   name: post_image
 pages:
+- _posts/t.md
 - _posts/test.md
 - _posts/test-post.md
