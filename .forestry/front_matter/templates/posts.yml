@@ -3,10 +3,21 @@ label: posts
 hide_body: false
 is_partial: false
 fields:
+- type: tag_list
+  default:
+  - ideas
+  - news
+  - lesson
+  - etc
+  label: 'Tags:'
+  name: tags
 - name: layout
   label: Layout
   type: text
   hidden: false
   default: post
+- type: file
+  label: Post image
+  name: post_image
 pages:
 - _posts/test-post.md
