@@ -44,3 +44,5 @@ fields:
   - lesson-step
   label: Add steps...
   name: content
+pages:
+- _posts/test-lesson.md
